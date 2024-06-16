@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Your Tee</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/productScript.js"></script>
+</head>
+
+<body>
+    
+    <header id="header1">
+        <div class="title">
+            <img id="logo" src="img/logo.svg">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="artists.html">ARTISTS</a></li>
+            <li><a href="charities.html">CHARITIES</a></li>
+            <li><a href="basket.html"><i class="fa fa-shopping-cart"></i> BASKET</a></li>
+
+        </ul>
+    </nav>
+
+   
+    </header>
+
+    <div id="wrapper3">
+
+        <div class="return"><a href=gallery.html><strong>&#8617; back to search</strong></a></div>
+
+        <div id="productPics">
+
+            <div class="productPic1"><img src="img/acHorse.jpg"></div>
+            <div class="productPic2"><img src="img/item27tee.png"></div>
+
+        </div>
+
+    <div class="productInfo"><h2>Birthday Horse</h2><h3>Angelica Cresswell</h3><a href="artists.html" target="_blank"><p>Learn more about Angelica's art</p></a></div>
+    <div class="colour"><p>COLOUR:</p></div>
+
+    
+        <div id="colourBlocks">
+
+            <div id="colour1" onclick="showColourBorder1()"></div>
+            <div id="colour2" onclick="showColourBorder2()"></div>
+            <div id="colour3" onclick="showColourBorder3()"></div>
+            <div id="colour4" onclick="showColourBorder4()"></div>
+            <div id="colour5" onclick="showColourBorder5()"></div>
+            <div id="colour6" onclick="showColourBorder6()"></div>
+            <div id="colour7" onclick="showColourBorder7()"></div>
+            <div id="colour8" onclick="showColourBorder8()"></div>
+            <div id="colour9" onclick="showColourBorder9()"></div>
+    
+        </div>
+
+    <div class="size"><p>SIZE:</p></div>
+
+        <div id="sizeOptions">
+
+            <div id="size1" onclick="showBorder1()"><p>XXS</p></div>
+            <div id="size2" onclick="showBorder2()"><p>XS</p></div>
+            <div id="size3" onclick="showBorder3()"><p>S</p></div>
+            <div id="size4" onclick="showBorder4()"><p>M</p></div>
+            <div id="size5" onclick="showBorder5()"><p>L</p></div>
+            <div id="size6" onclick="showBorder6()"><p>XL</p></div>
+            <div id="size7" onclick="showBorder7()"><p>2XL</p></div>
+            <div id="size8" onclick="showBorder8()"><p>3XL</p></div>
+
+        </div>
+    <div class="donation"><h3>Donation</h3></div>
+    <div class="dDesc"><p>With every purchase you make at Invert Tees, you get to select a charity who will receive 33.33% of the cost of your purchase. You can read more about each charity on our <a href="charities.html" target="_blank">charities</a> page.</p></div>
+
+        <div id="charityOptions">
+
+            <div id="charity1"><img src="img/aktSmall.png" onclick="showCharity1()"></div>
+            <div id="charity2"><img src="img/blackMindsSmall.png" onclick="showCharity2()"></div>
+            <div id="charity3"><img src="img/galopSmall.png" onclick="showCharity3()"></div>
+            <div id="charity4"><img src="img/mermaidsSmall.png" onclick="showCharity4()"></div>
+            <div id="charity5"><img src="img/mindOutSmall.png" onclick="showCharity5()"></div>
+            <div id="charity6"><img src="img/pcrfSmall.png" onclick="showCharity6()"></div> 
+            <div id="charity7"><img src="img/refugeSmall.png" onclick="showCharity7()"></div>
+            <div id="charity8"><img src="img/THTSmall.png" onclick="showCharity8()"></div>
+
+        </div>
+
+        <div id="charity1Text" class="charityText"><h4>akt formerly Albert Kennedy Trust</h4><p>akt has been providing routes to safe housing, support, and secure futures for LGBTQ+ young people since 1989. They are a UK-wide charity with centres in four major cities.</p></div>
+        <div id="charity2Text" class="charityText"><h4>Black Minds Matter UK</h4><p>Black Minds Matter UK is a fully registered charity connecting Black individuals and families with free therapy by qualified and accredited Black therapists.</p></div>
+        <div id="charity3Text" class="charityText"><h4>Galop</h4><p>Galop is the UK’s LGBT+ anti-abuse charity. We work with and for LGBT+ victims and survivors of abuse and violence.</p></div>
+        <div id="charity4Text" class="charityText"><h4>Mermaids</h4><p>Mermaids supports transgender, nonbinary and gender-diverse children and young people until their 20th birthday, as well as their families and professionals involved in their care.</p></div>
+        <div id="charity5Text" class="charityText"><h4>MindOut</h4><p>MindOut is a mental health service run by and for lesbian, gay, bisexual, trans, and queer (LGBTQ) people.</p></div>
+        <div id="charity6Text" class="charityText"><h4>Palestine Children's Relief Fund</h4><p>Palestine Children's Relief Fund (PCRF), founded in 1991 by concerned humanitarians in the USA, provides free medical care to thousands of injured and ill children yearly who lack local access to care within the local health care system. </p></div>
+        <div id="charity7Text" class="charityText"><h4>Refuge</h4><p>Refuge is the largest specialist domestic abuse organisation in the UK. On any given day our services support thousands of survivors, helping them to overcome the physical, emotional, financial and logistical impacts of abuse and rebuild their lives — free from fear.</p></div>
+        <div id="charity8Text" class="charityText"><h4>Terrence Higgins Trust</h4><p>Terrence Higgins Trust is the UK’s leading HIV and sexual health charity, and one of the largest in Europe.</p></div>
+
+        <div id="addToBasket" onclick="basket()"><p>ADD TO BASKET</p></div>
+
+
+   
+
+    <div id="overlay"></div>
+
+
+    <div id="basketPop">
+        <button class="close" onclick="closePop()"><strong>X</strong></button>
+
+            <h3>Added to basket!</h3>
+            <p><a href="basket.html">&#9734; Go to checkout&#9734; </a>
+            <br><a href="gallery.html">&#9733; Continue shopping&#9733;</a>
+                </p>
+    </div>
+
+</div>
+
+    </body>
+
+
+
+</html>
